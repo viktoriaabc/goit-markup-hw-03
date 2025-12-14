@@ -57,9 +57,7 @@ img {
 adresse {
   font-style: normal;
 }
-h2 {
-  color: #2e2f42;
-}
+
 .container {
 }
 
@@ -114,6 +112,7 @@ h2 {
 }
 
 .nav-link {
+  padding: 24px 0;
 }
 .contacts {
   color: var(--slate);
@@ -145,6 +144,10 @@ h2 {
 .container-hero {
   margin: 0 auto;
   max-width: 496px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 188px;
+  padding-top: 188px;
 }
 .hero-title {
   color: #ffffff;
