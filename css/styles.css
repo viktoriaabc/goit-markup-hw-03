@@ -60,13 +60,20 @@ adresse {
 h2 {
   color: #2e2f42;
 }
+.container {
+}
+
 .page-header {
   border-bottom: 1px solid var(--cornflower);
-  width: 1440px;
   height: 72px;
-  display: inline-block;
 }
-.page-header {
+
+.container-header {
+  background-color: #ffffff;
+  display: flex;
+  gap: 40px;
+  max-width: 1440px;
+  justify-content: space-between;
 }
 .nav-page {
 }
@@ -77,7 +84,7 @@ h2 {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--navy-blue);
+  color: var(--iris);
 }
 .logo-dark {
   font-family: "Raleway", sans-serif;
@@ -89,7 +96,11 @@ h2 {
   color: var(--navy-blue);
 }
 .nav-list {
+  display: flex;
+  gap: 40px;
+  margin-left: 76px;
 }
+
 .nav-item {
   color: var(--navy-blue);
   font-weight: 500;
@@ -129,6 +140,11 @@ h2 {
 }
 .section-hero {
   background-color: #2e2f42;
+  padding-top: 116px;
+}
+.container-hero {
+  margin: 0 auto;
+  max-width: 496px;
 }
 .hero-title {
   color: #ffffff;
@@ -146,6 +162,8 @@ h2 {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  min-width: 169px;
+  min-height: 56px;
 }
 .hero-order-button:hover,
 .hero-order-button:focus,
@@ -153,6 +171,13 @@ h2 {
   background-color: #404bbf;
 }
 .section-features {
+  padding-top: 194px;
+  padding-bottom: 120px;
+}
+.container-features {
+  margin: 0 auto;
+  max-width: 1128px;
+  display: flex;
 }
 .visually-hidden {
   position: absolute;
@@ -183,6 +208,12 @@ h2 {
 .section-team {
   background-color: #f4f4fd;
 }
+.container-team {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  margin: 0 auto;
+  display: flex;
+}
 .team-title {
   font-size: 36px;
   line-height: 1.11;
@@ -211,6 +242,13 @@ h2 {
 }
 .section-portfolio {
 }
+.container-portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  margin: 0 auto;
+  max-width: 1128px;
+  flex-wrap: wrap;
+}
 .portfolio-title {
   font-size: 36px;
   line-height: 1.11;
@@ -219,6 +257,7 @@ h2 {
   text-transform: capitalize;
 }
 .portfolio-list {
+  display: flex;
 }
 .portfolio-item {
   color: #2e2f42;
@@ -237,15 +276,33 @@ h2 {
 .portfolio-text {
 }
 .page-footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 156px;
   background-color: #2e2f42;
-  color: #f4f4fd;
+}
+.container-footer {
 }
 .link-logo-footer {
+  color: var(--iris);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .logo-light {
   color: var(--cloud);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .footer-text {
+  color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
