@@ -59,6 +59,9 @@ adresse {
 }
 
 .container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .page-header {
@@ -66,7 +69,7 @@ adresse {
   height: 72px;
 }
 
-.container-header {
+.header-container {
   background-color: #ffffff;
   display: flex;
   gap: 40px;
@@ -141,7 +144,7 @@ adresse {
   background-color: #2e2f42;
   padding-top: 116px;
 }
-.container-hero {
+.hero-container {
   margin: 0 auto;
   max-width: 496px;
   display: flex;
@@ -177,7 +180,7 @@ adresse {
   padding-top: 194px;
   padding-bottom: 120px;
 }
-.container-features {
+.features-container {
   margin: 0 auto;
   max-width: 1128px;
   display: flex;
@@ -211,7 +214,7 @@ adresse {
 .section-team {
   background-color: #f4f4fd;
 }
-.container-team {
+.team-container {
   padding-top: 120px;
   padding-bottom: 120px;
   margin: 0 auto;
@@ -245,7 +248,7 @@ adresse {
 }
 .section-portfolio {
 }
-.container-portfolio {
+.portfolio-container {
   padding-top: 120px;
   padding-bottom: 120px;
   margin: 0 auto;
@@ -284,7 +287,7 @@ adresse {
   padding-left: 156px;
   background-color: #2e2f42;
 }
-.container-footer {
+.footer-container {
 }
 .link-logo-footer {
   color: var(--iris);
