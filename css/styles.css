@@ -67,16 +67,18 @@ adresse {
 .page-header {
   border-bottom: 1px solid var(--cornflower);
   height: 72px;
+  display: flex;
 }
 
 .header-container {
   background-color: #ffffff;
   display: flex;
   gap: 40px;
-  max-width: 1440px;
   justify-content: space-between;
+  align-items: center;
 }
 .nav-page {
+  display: flex;
 }
 .link-logo-header {
   font-family: "Raleway", sans-serif;
@@ -131,6 +133,8 @@ adresse {
 }
 
 .contacts-list {
+  display: flex;
+  gap: 40px;
 }
 .contacts-item {
 }
@@ -143,33 +147,37 @@ adresse {
 .section-hero {
   background-color: #2e2f42;
   padding-top: 116px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .hero-container {
   margin: 0 auto;
   max-width: 496px;
-  display: flex;
+  display: block;
   flex-wrap: wrap;
   padding-bottom: 188px;
-  padding-top: 188px;
+  text-align: center;
 }
 .hero-title {
-  color: #ffffff;
+  color: var(--white);
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
+  padding-bottom: 48px;
 }
 .hero-order-button {
   font-family: "Roboto", sans-serif;
-  color: #ffffff;
-  background-color: #4d5ae5;
+  color: var(--white);
+  background-color: var(--iris);
   cursor: pointer;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   min-width: 169px;
   min-height: 56px;
+  text-align: center;
 }
 .hero-order-button:hover,
 .hero-order-button:focus,
@@ -197,6 +205,8 @@ adresse {
   border: 0;
 }
 .features-list {
+  display: flex;
+  width: calc((100%-24 * 3) / 4);
 }
 .features-item {
 }
@@ -212,13 +222,14 @@ adresse {
   letter-spacing: 0.02em;
 }
 .section-team {
+  padding-top: 120px 156px;
   background-color: #f4f4fd;
 }
 .team-container {
   padding-top: 120px;
   padding-bottom: 120px;
   margin: 0 auto;
-  display: flex;
+  background-color: var(--cloud);
 }
 .team-title {
   font-size: 36px;
@@ -226,14 +237,32 @@ adresse {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  padding: 72px;
 }
 .team-list {
-  background-color: #ffffff;
+  display: flex;
+  gap: 24px;
 }
 .team-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 32px;
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px;
+  width: 264px;
+  height: 380px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: var(--white);
+  overflow: hidden;
 }
 .team-img {
+  width: 264px;
+  height: 260px;
 }
+
 .team-name {
   color: #2e2f42;
   font-weight: 500;
@@ -247,13 +276,16 @@ adresse {
   letter-spacing: 0.02em;
 }
 .section-portfolio {
+  padding: 120px 156px 130px 156px;
 }
+
 .portfolio-container {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  display: flex;
+  flex-wrap: wrap;
+
   margin: 0 auto;
   max-width: 1128px;
-  flex-wrap: wrap;
+  color: var(--white);
 }
 .portfolio-title {
   font-size: 36px;
@@ -261,9 +293,17 @@ adresse {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  padding-bottom: 72px;
 }
 .portfolio-list {
   display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid var(--cornflower);
 }
 .portfolio-item {
   color: #2e2f42;
@@ -271,15 +311,21 @@ adresse {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  border: 1px solid var(--cornflower);
+  display: flex;
 }
 .portfolio-img {
+  width: 360px;
+  height: 300px;
 }
 .portfolio-name {
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: left;
 }
 
 .portfolio-text {
+  text-align: left;
 }
 .page-footer {
   padding-top: 100px;
@@ -288,6 +334,7 @@ adresse {
   background-color: #2e2f42;
 }
 .footer-container {
+  display: block;
 }
 .link-logo-footer {
   color: var(--iris);
@@ -311,4 +358,5 @@ adresse {
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
