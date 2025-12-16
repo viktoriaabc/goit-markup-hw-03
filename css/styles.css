@@ -13,18 +13,10 @@
   --dairy: #fcfcfc;
 }
 
-*,
-::before,
-::after {
-  box-sizing: border-box;
-}
-
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
-  font-size: 16px;
-  line-height: 21px;
 }
 
 h1,
@@ -54,7 +46,7 @@ img {
   max-width: 100%;
   height: auto;
 }
-adresse {
+address {
   font-style: normal;
 }
 
@@ -146,17 +138,12 @@ adresse {
 }
 .section-hero {
   background-color: #2e2f42;
-  padding-top: 116px;
+  padding-top: 188px;
+  padding-bottom: 188px;
   max-width: 1440px;
   margin: 0 auto;
 }
 .hero-container {
-  margin: 0 auto;
-  max-width: 496px;
-  display: block;
-  flex-wrap: wrap;
-  padding-bottom: 188px;
-  text-align: center;
 }
 .hero-title {
   color: var(--white);
@@ -165,19 +152,25 @@ adresse {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 .hero-order-button {
-  font-family: "Roboto", sans-serif;
   color: var(--white);
   background-color: var(--iris);
   cursor: pointer;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  display: block;
   min-width: 169px;
   min-height: 56px;
-  text-align: center;
+  border: none;
+  border-radius: 4px;
+  margin: 0 auto;
 }
 .hero-order-button:hover,
 .hero-order-button:focus,
@@ -185,8 +178,8 @@ adresse {
   background-color: #404bbf;
 }
 .section-features {
-  padding-top: 194px;
   padding-bottom: 120px;
+  padding-top: 194px;
 }
 .features-container {
   display: flex;
@@ -208,9 +201,10 @@ adresse {
 .features-list {
   display: flex;
   justify-content: space-between;
-  align-items: normal;
+  gap: 24px;
 }
 .features-item {
+  max-width: 264px;
 }
 .features-name {
   font-weight: 500;
@@ -282,9 +276,6 @@ adresse {
 }
 
 .portfolio-container {
-  display: block;
-  margin: 0 auto;
-  color: var(--white);
 }
 .portfolio-title {
   font-size: 36px;
@@ -300,8 +291,6 @@ adresse {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  align-items: center;
-  border: 1px solid var(--cornflower);
 }
 .portfolio-item {
   color: #2e2f42;
@@ -315,21 +304,25 @@ adresse {
   justify-content: flex-start;
   padding-bottom: 32px;
 }
+.portfolio-card-set {
+}
+.portfolio-card-img {
+}
 .portfolio-img {
   width: 360px;
   height: 300px;
-  padding-bottom: 32px;
+}
+.portfolio-card-text {
+  padding: 32px 16px;
 }
 .portfolio-name {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: left;
-  padding-left: 16px;
 }
 
 .portfolio-text {
   text-align: left;
-  padding-left: 16px;
+  padding: 32px 16px;
 }
 .page-footer {
   padding-top: 100px;
