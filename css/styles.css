@@ -206,7 +206,7 @@ address {
   gap: 24px;
 }
 .features-item {
-  width: calc((100%-72px) / 4);
+  width: calc((100%-72px) / 3);
 }
 .features-name {
   font-weight: 500;
@@ -247,11 +247,10 @@ address {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 32px;
+  gap: 32px;  
   border-radius: 0 0 4px 4px;
   padding: 0px 0px 32px;
-  width: calc((100%-72px)/4)
-  height: 380px;
+  width: calc((100%-72px)/4);
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: var(--white);
@@ -307,12 +306,10 @@ address {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  border: 1px solid var(--cornflower);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding-bottom: 32px;
-  max-width: calc((100%-48px)/3);
+  max-width: calc((100%-48px) / 3);
 }
 .portfolio-card-set {
  
@@ -340,7 +337,7 @@ address {
   padding: 32px 16px;
 }
 .page-footer {
-  padding: 100px 0 100px
+  padding: 100px 0 100px;
   background-color: #2e2f42;
 }
 .footer-container {
