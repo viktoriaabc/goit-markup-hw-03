@@ -221,12 +221,10 @@ address {
   letter-spacing: 0.02em;
 }
 .section-team {
-  padding-top: 120px 0 120px;
+  padding: 120px 0;
   background-color: #f4f4fd;
 }
 .team-container {
-  padding-top: 120px;
-  padding-bottom: 120px;
   margin: 0 auto;
   background-color: var(--cloud);
 }
@@ -314,8 +312,7 @@ address {
 .portfolio-card-set {
  
 }
-.portfolio-card-img {
-}
+
 .portfolio-img {
   width: 360px;
   height: 300px;
